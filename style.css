@@ -1,0 +1,71 @@
+@font-face {
+  font-family: montserrat;
+  src: url('fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+body{
+  font-family: montserrat;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    }
+    
+    .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .login-form h2{
+    margin-left: 125px;
+    }
+    
+    .form-group {
+    display: flex;
+    flex-direction: column;
+    }
+        
+    input[type="text"],
+    input[type="password"] {
+    background-color:#D8D8D8;
+    padding: 10px;
+    outline: none;
+    border-radius: 9px;
+    font-size: 16px;
+    }
+    
+  .login{
+    background-color: #009BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+    
+    .no-account {
+    display: flex;    
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    }
+    .not-logged{
+        margin-right: 10px;
+    }
+    .logout{
+     background-color: #FF0000;
+     color: #fff;
+     border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    }
